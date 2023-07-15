@@ -8,5 +8,8 @@ namespace test2
 {
     internal class Class1
     {
+        public string id { get; set; }
+        public string name { get; set; }
+
     }
 }
