@@ -77,6 +77,7 @@ namespace test2
                 PhongBan pb = cd.SelectedValue as PhongBan;
                 cbo_MaDA.DataSource = pb.DuAnList;
                 cbo_MaDA.DisplayMember = "TenDA"; 
+                // thu choi thoi 
             }
         }
 
